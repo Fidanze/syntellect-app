@@ -1,0 +1,28 @@
+button {
+  align-items: center;
+  background-color: #3b3b3b;
+  border-radius: 8px;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+  display: flex;
+  font-size: 13px;
+  font-weight: 600;
+  height: 40px;
+  justify-content: center;
+  letter-spacing: 0.48px;
+  line-height: 20px;
+  padding: 10px 12px;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  width: 100%;
+}
+
+button:hover {
+  background-color: #626262;
+}
+
+button:active {
+  background-color: #767676;
+}

@@ -1,0 +1,39 @@
+input {
+  align-items: center;
+  background-color: #ffffff;
+  border-radius: 8px;
+  border: 1px solid #00000033;
+  color: #000;
+  cursor: pointer;
+  display: flex;
+  font-size: 14px;
+  font-weight: 400;
+  height: 20px;
+  justify-content: center;
+  text-overflow: ellipsis;
+  letter-spacing: 0.3px;
+  line-height: 24px;
+  padding: 10px 12px;
+  vertical-align: middle;
+}
+
+input:hover {
+  border-color: #00000080;
+}
+
+input:focus {
+  outline: none;
+  border-color: #35CDFD;
+}
+
+input:invalid {
+  outline: none;
+  border-color: red;
+}
+
+.control{
+  align-items: center;
+  display: flex;
+  flex-direction: row;
+  gap: 20px;
+}
