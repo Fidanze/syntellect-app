@@ -1,5 +1,5 @@
 import { observer } from 'mobx-react-lite'
-import { FC, RefObject, useCallback, useEffect, useMemo, useRef, useState } from 'react'
+import { FC, RefObject, useCallback, useEffect, useRef, useState } from 'react'
 import Control from '../../control/control'
 import Store from './store'
 import './styles.css'
